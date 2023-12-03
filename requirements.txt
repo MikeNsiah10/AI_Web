@@ -2,3 +2,7 @@ requests
 whoosh
 beautifulsoup4
 flask
+pyspellchecker      
+
+
+
