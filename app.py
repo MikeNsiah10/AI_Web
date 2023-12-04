@@ -7,7 +7,7 @@ import traceback
 app = Flask(__name__)
 
 # Directory where the Whoosh index is located
-index_dir = 'index_directory'
+index_dir = 'ix_directory'
 index = open_dir(index_dir)
 
 @app.route('/')

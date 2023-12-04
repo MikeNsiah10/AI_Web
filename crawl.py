@@ -17,7 +17,7 @@ class Crawler:
         self.visited = set()
         # define the index schema
         self.schema = Schema(url=TEXT(stored=True), title=TEXT(stored=True), content=TEXT(stored=True))
-        self.index_dir = "index_directory"
+        self.index_dir = "ix_directory"
 
         # Create or open the index directory
         if not os.path.exists(self.index_dir):
