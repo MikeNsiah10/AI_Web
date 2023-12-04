@@ -1,8 +1,8 @@
 import sys
 import os
 
-os.chdir("/home/user123/search_engine_project")
-sys.path.append("/home/user123/search_engine_project")
+os.chdir("/home/user123/AI_Web")
+sys.path.append("/home/user123/AI_Web")
 
 from app import app
 
